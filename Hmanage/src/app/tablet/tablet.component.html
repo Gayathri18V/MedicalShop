@@ -1,0 +1,21 @@
+<div class="container col-md-6">
+   <h1 style="color:crimson;">Buy Medicine</h1>
+   <form (ngSubmit)="userTablet()">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">UserName</label>
+      <input type="text" class="form-control" id="username" name="username" [(ngModel)]="tablet.username">
+    </div>
+   <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">ProductName</label>
+      <input type="text" class="form-control" id="tabletname" name="tabletname" [(ngModel)]="tablet.tabletname">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">ProductId</label>
+      <input type="text" class="form-control" id="tabletId" name="tabletId" [(ngModel)]="tablet.tabletId">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Quantity</label>
+      <input type="text" class="form-control" id="tabletquantity" name="tabletquantity" [(ngModel)]="tablet.tabletquantity">
+    </div>&nbsp;<button type="submit" class="btn btn-primary">Buy</button>
+     </form>
+   </div>

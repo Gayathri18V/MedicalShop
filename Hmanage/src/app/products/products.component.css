@@ -1,0 +1,61 @@
+.item img{
+   width: 200px;
+   border-width: 0mm;
+}
+.item{
+   margin: 0px 25px;
+   text-align: center;
+}
+.item a:hover{
+   color:rgb(10, 119, 119);
+}
+.card{
+   padding-right:5px;
+   margin: 30px;
+  }
+.card img{
+   border-color:whitesmoke;
+   width: 100px;
+   height: 200px;
+   margin-bottom: 10px;
+   transition: 0.3s ease-in-out;
+}
+.card{
+   border: 1px salmon;
+   width: max-content ;
+   display:inline-table;
+   text-align: center;
+   margin: 5px;
+
+}
+.card img:hover{
+   
+   transform: 0.3s ease-in-out;
+   transform: scale(1.1);
+
+}
+
+.card img{
+   width: 300px;
+   padding-left: 5px;
+}
+.title{
+   font-weight: bold;
+   margin: 20px;
+}
+
+button{
+   
+   text-align:center;
+   border: 2px soild #e1701a;
+   background:purple ;
+   font-weight: bold;
+   margin: 20px;
+   padding: 5px 10px;
+   align-items:center;
+
+}
+button:hover{
+   box-shadow: 0 0 5px 5px chocolate inset;
+}
+
